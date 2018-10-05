@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jordond/test/compare/v1.1.0...v1.2.0) (2018-10-05)
+
+
+### Features
+
+* **test:** assets again ([53fdb89](https://github.com/jordond/test/commit/53fdb89))
+
 # [1.1.0](https://github.com/jordond/test/compare/v1.0.0...v1.1.0) (2018-10-05)
 
 
