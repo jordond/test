@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.0-development",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "author": "Jordon de Hoog <jordon.dehoog@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordond/test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^15.9.17"
+  }
+}
