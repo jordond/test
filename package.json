@@ -12,8 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "exit 0",
-    "package:standalone": "bestzip outputs/nxbm-standalone.zip outputs/standalone",
-    "package:docker": "bestzip outputs/nxbm-docker.zip outputs/testfile.json",
+    "package:standalone": "./zip.sh nxbm-standalone.zip standalone",
+    "package:docker": "./zip.sh nxbm-docker.zip testfile.json",
     "package": "npm run package:standalone && npm run package:docker",
     "semantic-release": "semantic-release"
   },
@@ -21,7 +21,6 @@
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.0",
     "@semantic-release/git": "^7.0.4",
-    "bestzip": "^2.1.1",
     "semantic-release": "^15.9.17"
   },
   "release": {
