@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jordond/test/compare/v1.2.0...v1.3.0) (2018-10-05)
+
+
+### Features
+
+* **zip:** zip up the assets instead... ([eb05b9b](https://github.com/jordond/test/commit/eb05b9b))
+
 # [1.2.0](https://github.com/jordond/test/compare/v1.1.0...v1.2.0) (2018-10-05)
 
 
