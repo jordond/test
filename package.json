@@ -29,17 +29,14 @@
     ],
     "prepare": [
       "@semantic-release/changelog",
-      "@semantic-release/git"
+      {
+        "path": "@semantic-release/git",
+        "assets": ["outputs", "CHANGELOG.md"]
+      }
     ],
     "publish": [
       {
-        "path": "@semantic-release/github",
-        "assets": [
-          {
-            "path": "outputs/**/*",
-            "label": "Binary: test"
-          }
-        ]
+        "path": "@semantic-release/github"
       }
     ],
     "success": [
