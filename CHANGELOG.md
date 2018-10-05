@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/jordond/test/compare/v1.3.0...v1.3.1) (2018-10-05)
+
+
+### Bug Fixes
+
+* **assets:** should zip properly now ([f1486d1](https://github.com/jordond/test/commit/f1486d1))
+
 # [1.3.0](https://github.com/jordond/test/compare/v1.2.0...v1.3.0) (2018-10-05)
 
 
