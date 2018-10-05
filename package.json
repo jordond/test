@@ -7,7 +7,7 @@
   "author": "Jordon de Hoog <jordon.dehoog@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jordond/test"
+    "url": "git@github.com:jordond/test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

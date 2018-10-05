@@ -24,3 +24,19 @@ jobs:
       - run:
           name: Build all libs and package binaries
           command: yarn build
+  release:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn semantic-release
+
+workflows:
+  version: 2
+  build_and_release:
+    jobs:
+      - build
+      - release:
+          requires:
+            - build
